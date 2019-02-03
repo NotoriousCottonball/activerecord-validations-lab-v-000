@@ -1,7 +1,7 @@
 class ClickbaitValidator < ActiveModel::Validator
   
   def validate(title)
-    patterns = %r{Won't Believe|}
+    patterns = %r{Won't Believe|Secret|}i
     if patterns !=~ title
   end
 end
