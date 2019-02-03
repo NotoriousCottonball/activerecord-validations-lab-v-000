@@ -6,6 +6,7 @@ class ClickbaitValidator < ActiveModel::Validator
       errors.add :title, "Must be Clickbait!"
     end
   end
+  
 end
     
   
