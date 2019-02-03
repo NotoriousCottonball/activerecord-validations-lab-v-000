@@ -2,7 +2,7 @@ class ClickbaitValidator < ActiveModel::Validator
   
   def validate(title)
     patterns = %w()
-    if patterns.none? { |pat| pat.match title }
+    if patterns.none? {|pat| pat.match title }
   end
   
 end
