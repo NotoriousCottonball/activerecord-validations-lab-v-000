@@ -1,5 +1,7 @@
 class ClickbaitValidator < ActiveModel::Validator
   
-  def validate()
+  def validate(title)
+    
+  end
   
 end
