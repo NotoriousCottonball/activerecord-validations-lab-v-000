@@ -1,1 +1,1 @@
-ActiveModel::Validator
+class ClickbaitValidator < ActiveModel::Validator
