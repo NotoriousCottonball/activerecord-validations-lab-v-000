@@ -2,7 +2,7 @@ class ClickbaitValidator < ActiveModel::Validator
   
   def validate(title)
     patterns = %r(Won't Believei,
-    
+    patterns =~
     
 #     /Secret/i,
 #     /Top [0-9]*/i,
